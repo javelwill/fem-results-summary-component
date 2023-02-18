@@ -132,7 +132,7 @@ ul {
 .result__details-description {
   color: var(--light-lavender);
   font-weight: var(--fw-bold);
-  margin: 0 6em 0 6em;
+  margin: 0 3em 0 3em;
 }
 
 .result__summary-section {
@@ -238,6 +238,11 @@ ul {
 
   .result__details-section {
     border-radius: 2em 2em 2em 2em;
+  }
+
+  .result__details-score {
+    width: 220px;
+    height: 220px;
   }
 
   .result__details-description {
